@@ -1,4 +1,3 @@
-from busqueda import buscar_contacto
 from Contacto import Contacto
 
 class Agenda:
@@ -16,7 +15,7 @@ class Agenda:
         self.listacontactos.append(contacto)
 
     def eliminar_contacto(self,nombre):
-        contacto= buscar_contacto(self.contactos, nombre)
+        contacto= self.buscar_contacto(nombre)
         if contacto:
             self.listacontactos.remove(contacto)
 
@@ -26,10 +25,6 @@ class Agenda:
             contacto.actualizar(nuevonombre, telefono, direccion, email )
         else:
             print("no existe")
-
-
-    def buscar_contacto(self):
-        pass
 
     def listar_contactos(self):
         for contacto in self.contactos:
