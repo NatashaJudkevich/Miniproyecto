@@ -1,1 +1,1 @@
-Este es un miniproyecto para el informatorio veras dos archivos, ignora la carpeta ya que se estaba trabajando con clases y bloques, pero al final para mayor simplificacion se decidio hacerlo en un solo bloque donde esta la agenda terminada.
+Este es un miniproyecto para el informatorio veras dos archivos, ignora la carpeta "Miniproyec-main" ya que se estaba trabajando con clases y bloques, pero al final para mayor simplificacion del curso se decidio hacerlo en un solo bloque donde esta la agenda terminada.
